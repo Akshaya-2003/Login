@@ -1,0 +1,233 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>KARNATAKA STATE PORTAL</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="header">
+   
+    <div class="header-left-panel">
+      <div class="logo-wrap">
+        <div class="logo">
+          <img src="./images/kk.png" style="height: 100px;"
+            class="center">
+          <h2>ಕರ್ನಾಟಕ ಸರ್ಕಾರ</h2>
+          <h1>Government Of Karnataka</h1>
+        </div>
+      </div>
+    </div>
+    <div class="header-right-panel">
+    
+      <div class="header-right-panel-top">
+        <p>Call Us : 080 44554455
+        <p> <a href="#">Mail Us : pd.webportal@karnataka.gov.in</a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li class="marRight20"><a class="active" href="index.html">home</a></li>
+          <li class="marRight20"><a href="about.html">about</a></li>
+          <li><a href="services.html">services</a></li>
+
+          <li><a href="contact.html">contact us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <br>  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+        <img src="images/rr.jpg" style="width:100%;">
+    </div>
+    <div class="mySlides fade">
+        <img src="images/uni.jpg" style="width:100%;">
+    </div>
+    <div class="mySlides fade">
+      <img src="images/lib.jpg" style="width:100%;">
+  </div>
+    <script>
+      let slideIndex = 0;
+      showSlides();
+
+  function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) { slideIndex = 1 }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+  setTimeout(showSlides, 2000); 
+}
+</script>
+  <div class="panel-wrap">
+    <div class="panel-wrapper">
+      <div class="panel marRight30">
+        <div class="grow"><img src="images/img-1.jpg" style="border-radius: 30px;" /></div>
+        <div class="title">
+          <h1 class="border-bottom">Agriculture</h1>
+          <h2>ಕೃಷಿ</h2>
+        </div>
+        <div class="border"></div>
+        <div class="content">
+          <p>Agriculture, with its allied sectors, is unquestionably the largest livelihood provider in India, more so
+            in the vast rural areas..</p>
+          <div class="button-link"><a href="services.html">readmore</a></div>
+        </div>
+      </div>
+      <div class="panel marRight30">
+        <div class="grow"><img src="images/img-2.jpg" style="border-radius: 15px;"/></div>
+        <div class="title">
+          <h1 class="border-bottom">Property</h1>
+          <h2>ನಿರ್ಮಾಣ</h2>
+        </div>
+        <div class="border"></div>
+        <div class="content">
+          <p>The essence of Human Resource Development is education, which plays a significant and remedial role in
+            balancing the socio-economic.<br />
+          </p>
+          <div class="button-link"><a href="services.html">readmore</a></div>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="grow"><img src="images/img-3.jpg" style="border-radius: 15px;"/></div>
+        <div class="title">
+          <h1 class="border-bottom">Education</h1>
+          <h2>ಶಿಕ್ಷಣ</h2>
+        </div>
+        <div class="border"></div>
+        <div class="content">
+          <p>Properties are one of the most important components of a capitalist economy, moral philosophies, and legal
+            systems. </p>
+          <div class="button-link"><a href="services.html">readmore</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="clearing"></div>
+  <br><br>
+  <div class="container">
+    <div class="top-content">
+      
+        <img class="wi"  src="images/sid.jpg" />
+      
+        
+        <div>
+            <h1>SRI SIDDARAMAIAH</h1>
+            <h2>CHIEF MINISTER OF KARNATAKA</h2>
+        </div>
+    </div>
+    <div class="point">
+        <p>I was born on August 03, 1948, in Siddaramana Hundi of Varuna Hobli in Mysore district.
+            My family was mainly dependent on agriculture. <br>In the days when getting through
+            matriculation itself was a tough proposition, I was the first graduate in the family. </p>
+            <br>
+            <div class="button-link"><a href="https://en.wikipedia.org/wiki/Siddaramaiah">readmore</a></div>
+        </div>
+    </div>
+</div>
+    <div class="page-wrapper">
+      <div class="primary-content marRight30 ">
+        
+        <div class="mid-panel marginTop">
+          <div class="mid-panel-content">
+            <div class="title">
+              <h1>TESTIMONIALS</h1>
+            </div>
+            <div class="border"></div>
+            <h2>"It has been easy like never before...."</h2>
+            <p>"An incredible platform! This portal has streamlined our processes and made collaboration seamless. Highly recommended!". </p>
+            <div class="img marRight20"> <img src="images/img-4.jpg"  style="border-radius: 10px;"/> </div>
+            <div class="img marRight20"> <img src="images/img-5.jpg" style="border-radius: 10px;" /> </div>
+            <div class="img"> <img src="images/img-6.jpg" style="border-radius: 10px;" /> </div>
+          </div>
+        </div>
+        <div class="mid-panel marginTop">
+          <div class="mid-panel-content ">
+            <div class="title">
+              <h1>DISCLAIMER</h1>
+            </div>
+            <div class="border"></div>
+            
+            <p>Please note that this page also provides links to the websites / web pages of Govt. Ministries/Departments/Organisations. The content of these websites are owned by the respective organisations and they may be contacted for any further information or suggestion.</p>
+            <p class="padBottom">CONTENT OWNED AND MAINTAINED BY : Dept. of Information and Public Relation</p>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        
+        <div class="midpanel">
+          <div class="content marginBottom">
+            <div class="title">
+              <h1>Official Websites</h1>
+            </div>
+            <div class="border"></div>
+            <ul>
+              <li><a href="https://www.karnataka.gov.in/">Official Website of Karnataka Government </a></li>
+              <li><a href="https://www.karnataka.gov.in/site/Pages/Home.aspx">Karnataka State Portal </a></li>
+              <li><a href="https://opendata.karnataka.gov.in/">Karnataka State Open Government Data</a></li>
+              <li><a href="https://ksrtc.in/">Karnataka State Road Transport Corporation</a></li>
+              <li><a href="http://kea.kar.nic.in/">Karnataka Education Authority</a></li>
+              <li><a href="http://kspcb.karnataka.gov.in/">Karnataka State Pollution Control Board</a></li>
+              <li class="borderNone padBottom20"><a href="http://www.ksndmc.org/">Karnataka State Natural Disaster Monitoring</a></li>
+            </ul>
+          </div>
+        </div>
+        <button class="chatbot-toggler">
+          <span class="material-symbols-rounded">smart_toy</span>
+          <span class="material-symbols-outlined">close</span>
+        </button>
+        <div class="chatbot">
+          <header>
+            <h2 class="h2">Chatbot</h2>
+            <span class="close-btn material-symbols-outlined">close</span>
+          </header>
+          <ul class="chatbox" style="margin-top: 60px;">
+            <li class="chat incoming">
+              <span class="material-symbols-outlined">smart_toy</span>
+              <p>Hi there 👋<br>How can I help you today?</p>
+            </li>
+           
+          </ul>
+          <div class="chat-input">
+            <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+            <span id="send-btn" class="material-symbols-rounded">send</span>
+          </div>
+        </div>
+          
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  </div>
+ 
+  <div class="footer">
+    <br><br>
+    <p>Copyright (c) Karnataka State Government. All rights reserved. <a href="https://www.karnataka.gov.in/">
+      www.karnataka.gov.in
+      </a></p>
+  </div>
+</body>
+
+</html>

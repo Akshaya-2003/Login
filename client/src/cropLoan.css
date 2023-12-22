@@ -1,0 +1,61 @@
+/* CropLoan.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #da0e0e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #4c59af;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #95b197;
+  }
+  .header{width:960px; margin:0 auto; overflow: hidden; }
+  .header-left-panel{width:560px; float:left;}
+  .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  .logo-wrap{width:350px; background:#f3f3ee; overflow:hidden; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+  .logo{width:280px; float:left; margin-left:20px; margin-top:30px;}
+  .logo h2{font-family: 'Ropa Sans', sans-serif; font-size:18px; color:#1e73d5; text-transform:uppercase; font-weight:normal; text-align: center;}
+  .logo h1{color:#50453b; font-size:42px; padding-bottom:22px; text-align: center;font-family: 'Gill Sans', sans-serif;}
+  .header-right-panel{width:400px; float:right; overflow:hidden; margin-top:30px;}
+  .header-right-panel-top{width:280px; float:right;}
+  .header-right-panel p{color:#1e73d5; float:right; font-size:14px; text-align:right; font-weight:normal;}
